@@ -20,7 +20,7 @@ export default function Solution() {
               <br />
               {t.heading2}
             </h2>
-            <p className="text-slate-400 text-sm leading-relaxed mb-8">
+            <p className="text-slate-400 text-base leading-relaxed mb-8">
               {t.body}
             </p>
 
@@ -28,7 +28,7 @@ export default function Solution() {
               {t.points.map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-[7px] shrink-0" />
-                  <span className="text-slate-300 text-sm leading-relaxed">
+                  <span className="text-slate-300 text-base leading-relaxed">
                     {item}
                   </span>
                 </div>

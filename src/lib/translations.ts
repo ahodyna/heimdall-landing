@@ -33,18 +33,18 @@ export const translations = {
       items: [
         {
           num: "01",
-          title: "Military vehicles and personnel are exposed",
-          desc: "No systemic acoustic detection solution exists for military units in the field. Detection relies on visual observation or RF methods that FPV drones can bypass entirely.",
+          title: "Personnel and equipment under threat",
+          desc: "No acoustic detection solution exists at the front. Units rely on visual observation or RF detectors — and FPV drones bypass both with ease.",
         },
         {
           num: "02",
-          title: "Volunteers and evacuees have zero warning",
-          desc: "Near-frontline civilians learn about an approaching drone only when they can already see it — leaving no time to react and no directional information to guide a safe response.",
+          title: "Volunteers and civilians have no warning",
+          desc: "Near-frontline civilians learn about a drone only when they can already see it — no time to react, no direction to guide a safe response.",
         },
         {
           num: "03",
-          title: "Fiber-optic FPV drones evade all RF detection",
-          desc: "Fiber-optic controlled drones emit no radio frequency signal. Conventional RF jammers and detectors are completely blind to them — making them the most dangerous threat on the modern battlefield.",
+          title: "Fiber-optic FPV are invisible to RF",
+          desc: "These drones emit no radio signal. Jammers and detectors are completely blind — making them the most dangerous threat on the modern battlefield.",
         },
       ],
     },
@@ -53,7 +53,7 @@ export const translations = {
       sectionLabel: "The Solution",
       heading1: "Acoustic awareness",
       heading2: "for the battlefield",
-      body: "Heimdall Aurux is a research-backed acoustic detection system that uses a microphone array, beamforming algorithms, and deep learning AI to detect drone presence and direction of arrival — even in high-noise warfare conditions.",
+      body: "Heimdall Aurux is a research-backed acoustic detection system that uses a microphone array, beamforming algorithms, and deep learning AI to detect drone presence and direction of arrival.",
       points: [
         "Detects FPV drones regardless of control method — including fiber-optic",
         "Provides real-time direction and approximate distance to threat",
@@ -77,7 +77,7 @@ export const translations = {
         {
           num: "02",
           title: "Process",
-          desc: "Beamforming algorithms apply spatial filtering while the deep learning model isolates drone acoustic signatures from battlefield noise in real time.",
+          desc: "Beamforming algorithms apply spatial filtering while the deep learning model isolates drone sound from background noise in real time.",
         },
         {
           num: "03",
@@ -156,18 +156,18 @@ export const translations = {
       items: [
         {
           num: "01",
-          title: "Техніка та особовий склад незахищені",
-          desc: "Системне акустичне рішення для виявлення загроз відсутнє. Виявлення покладається на візуальне спостереження або RF-методи, яких FPV-дрони легко уникають.",
+          title: "Особовий склад та техніка під загрозою",
+          desc: "Жодного системного рішення для акустичного виявлення на передовій немає. Підрозділи покладаються на зір або RF-детектори — а FPV-дрони обходять їх без зусиль.",
         },
         {
           num: "02",
-          title: "Волонтери та евакуйовані не мають попередження",
-          desc: "Поблизу фронту цивільні дізнаються про дрон лише тоді, коли вже бачать його — часу та напрямку для безпечної відповіді не залишається.",
+          title: "Волонтери та цивільні без попередження",
+          desc: "Поблизу фронту цивільні дізнаються про дрон лише коли вже бачать його — часу та напрямку для реакції не залишається.",
         },
         {
           num: "03",
-          title: "Оптоволоконні FPV обходять будь-яке RF-виявлення",
-          desc: "Дрони на оптоволоконному управлінні не випромінюють радіосигналу. Звичайні глушники та детектори повністю сліпі до них — це найнебезпечніша загроза на сучасному полі бою.",
+          title: "Оптоволоконні FPV невидимі для RF",
+          desc: "Такі дрони не випромінюють радіосигналу. Глушники та детектори повністю сліпі — це найнебезпечніша загроза на сучасному полі бою.",
         },
       ],
     },
@@ -176,7 +176,7 @@ export const translations = {
       sectionLabel: "Рішення",
       heading1: "Акустична обізнаність",
       heading2: "для поля бою",
-      body: "Heimdall Aurux — акустична система виявлення на основі досліджень, що використовує масив мікрофонів, алгоритми beamforming та штучний інтелект для виявлення дронів та напрямку їх прильоту — навіть в умовах сильного шуму.",
+      body: "Heimdall Aurux — акустична система виявлення на основі досліджень, що використовує масив мікрофонів, алгоритми beamforming та штучний інтелект для виявлення дронів та напрямку їх прильоту.",
       points: [
         "Виявляє FPV-дрони незалежно від методу управління — включно з оптоволокном",
         "Надає напрямок та приблизну відстань до загрози в реальному часі",
@@ -200,7 +200,7 @@ export const translations = {
         {
           num: "02",
           title: "Обробка",
-          desc: "Алгоритми beamforming виконують просторову фільтрацію, а модель глибокого навчання відокремлює акустичний підпис дрона від шуму поля бою в реальному часі.",
+          desc: "Алгоритми beamforming виконують просторову фільтрацію, а модель глибокого навчання виділяє звук дрона з фонового шуму в реальному часі.",
         },
         {
           num: "03",
